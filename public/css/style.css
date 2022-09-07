@@ -1,0 +1,274 @@
+/* Home style */
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+@media (max-width: 1470px) {
+    .text-element h2 {
+        font-weight: 400;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 750px) {
+    h3 .text-center {
+        font-weight: 200;
+        font-size: .6rem;
+    }
+}
+
+.img-wrap img {
+    width: 100%;
+    height: 280px;
+}
+
+
+a.btn {
+    color: #f26a2b !important;
+}
+
+a.btn .btn-outline-danger {
+    color: #f26a2b;
+}
+
+.text-center h1 {
+    font-size: 5em;
+    margin-top: 6rem;
+    margin-bottom: 0.5em;
+}
+
+.text-center span {
+    color: rgb(242, 106, 43);
+}
+
+
+/* Home style ends */
+
+
+/* navbar */
+
+.navbar li {
+    position: relative;
+}
+
+.navbar .nav-link {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.navbar .nav-link::after {
+    content: '';
+    display: block;
+    height: 3px;
+    bottom: 0;
+    width: 0%;
+    background-color: #f26a2b;
+    transition: all ease-in-out 250ms;
+}
+
+.navbar .nav-link:hover::after {
+    width: 100%;
+}
+
+a.dropdown-item {
+    color: #ffffff;
+}
+
+a.dropdown-item i {
+    color: #f26a2b;
+}
+
+.nav-item .dropdown-menu.show {
+    margin-top: 20px;
+    background-color: #343a40;
+    padding: auto;
+}
+
+@media screen and (max-width: 991px) {
+    .navbar .nav-link:hover::after {
+        width: 15%;
+    }
+}
+
+
+/* Navbar ends */
+
+
+/* global style */
+
+.form-group .btn {
+    color: #f26a2b;
+}
+
+
+/* global style ends */
+
+
+/* login style */
+
+#signin {
+    background-color: rgb(52, 58, 64, .9);
+}
+
+.btn {
+    color: #f26a2b !important;
+}
+
+.form-group label {
+    color: #ffffff;
+}
+
+.form-check-label {
+    color: #ffffff;
+}
+
+.for_get_pass a {
+    color: #ffffff;
+}
+
+.checkbox {
+    color: #f26a2b;
+}
+
+i.fas {
+    color: #f26a2b;
+}
+
+
+/* login style ends */
+
+
+/* Register style */
+
+#signup {
+    background-color: rgba(52, 58, 64, .9);
+}
+
+.btn {
+    color: #f26a2b !important;
+}
+
+.form-group {
+    color: #f26a2b;
+}
+
+.checkbox {
+    color: #f26a2b;
+}
+
+label {
+    color: #f26a2b;
+}
+
+.form-control::placeholder {
+    color: black;
+}
+
+
+/* Register style ends */
+
+
+/* about us style */
+
+@import url('https:fonts.googleleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about-section {
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+}
+
+.inner-container h1 {
+    text-transform: uppercase;
+    margin: 10px;
+    color: #f26a2b;
+    font-size: 40px;
+}
+
+.inner-container p {
+    text-transform: uppercase;
+    justify-content: center;
+    text-align: justify;
+    margin: 20px;
+    color: #343A40;
+    font-size: 20px;
+}
+
+.team-section {
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 80px;
+}
+
+.team-section h1 {
+    text-transform: uppercase;
+    margin: 60px;
+    color: #f26a2b;
+    font-size: 40px;
+}
+
+.border {
+    display: block;
+    margin: auto;
+    width: 160px;
+    height: 6px;
+    background: #f26a2b;
+    margin-bottom: 40px;
+}
+
+.ps {
+    margin-bottom: 40px;
+}
+
+.ps a {
+    display: inline-block;
+    margin: 0 30px;
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.ps a img {
+    width: 100%;
+    filter: grayscale(100%);
+    transition: 0.4s all;
+}
+
+.ps a:hover>img {
+    filter: none;
+}
+
+.section {
+    width: 600px;
+    margin: auto;
+    font-size: 20px;
+    color: #343A40;
+    text-align: justify;
+    height: 0;
+    overflow: hidden;
+}
+
+.section:target {
+    height: auto;
+}
+
+.name {
+    display: block;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+
+/* about us style ends */
