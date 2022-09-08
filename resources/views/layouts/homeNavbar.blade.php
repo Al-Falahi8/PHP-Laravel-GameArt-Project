@@ -14,8 +14,8 @@
       <div class="container py-5">
         <h1 class="display-4 fw-bold text-white">Choose Your Assets</h1>
         <p class="col-md-8 fs-4 text-white">Find out more Assets that suits your Game</p>
-        <p class="col-md-8 fs-4 text-white">See Our Collection in Our Shope.</p>
-        <a href="{{ route('market')}}" class="btn btn-outline-light ml-3 btn-lg text-white" type="button">Shop</a>
+        <p class="col-md-8 fs-4 text-white">See Our Collection in Our Shop.</p>
+        <a href="{{ route('market')}}" class="btn btn-outline-light ml-3 btn-lg text-white" type="button">SHOP</a>
       </div>
     </div>
     <!-- Hero Section End -->
@@ -81,7 +81,7 @@
                     @else
                     <li class="nav-item dropdown">
                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre style="position: relative; padding-left: 50px;">
-                            <img src="../public/uploads/avatar/{{ Auth::user()->avatar }}" style="width: 32px; height: 32px; position:absolute; bottom: 5px; left:10px; border-radius:50%;">
+                            <img src="public/uploads/avatar/{{ Auth::user()->avatar }}" style="width: 32px; height: 32px; position:absolute; bottom: 5px; left:10px; border-radius:50%;">
                             {{ Auth::user()->first_name }} <span class="caret"></span>
                         </a>
                     

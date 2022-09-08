@@ -11,7 +11,7 @@
     <!-- Sidebar user panel (optional) -->
     <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image" style="position: relative; padding-left: 50px;">
-            <a href="{{ route('userProfile')}}"><img src="/public/uploads/avatar{{ Auth::user()->avatar }}" style="width: 32px; height: 32px; position:absolute; bottom: 1px; left:10px; border-radius:50%;"></a>
+            <a href="{{ route('userProfile')}}"><img src="/public/uploads/avatar/{{ Auth::user()->avatar }}" style="width: 32px; height: 32px; position:absolute; bottom: 1px; left:10px; border-radius:50%;"></a>
         </div>
 
         <div class="info">

@@ -2,7 +2,7 @@
 @section('title', 'Catagories Table')
 @section('content')
 
-    <section class="content">
+    <section class="content my-5">
         <div class="container">
             <h1 class="mb-3 text-dark">Categories</h1>
             <p>

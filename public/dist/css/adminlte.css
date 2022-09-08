@@ -30422,7 +30422,7 @@ a.text-muted:hover {
 .accent-primary .page-item.active a,
 .accent-primary .page-item.active .page-link {
     background-color: #007bff;
-    border-color: #007bff;
+    border-color: #212529;
     color: #ffffff;
 }
 

@@ -11,7 +11,7 @@
 @endsection
 @section('content')
 
-    <div class="container col-8 mt-4">
+    <div class="container col-8 mt-4 my-5">
         <h1 class="mb-3 text-dark">Profile</h1>
         @if( session()->has('success'))
             <div class="alert alert-success text-center col-11">
